@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import "./assets/css/tailwind.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="bg-gray-900 p-20 h-screen flex justify-center items-start flex-col">
+      <h1 className="text-5xl text-white">Hello CRA Tailwind 👋</h1>
+      <p className="text-gray-400 mt-5 text-lg">
+        Simple boilerplate code for react tailwind project
+      </p>
+      <button className="p-4 bg-green-600 rounded-lg font-bold text-white mt-5 hover:bg-gray-600">
+        Hello Friends 🚀
+      </button>
     </div>
   );
 }
